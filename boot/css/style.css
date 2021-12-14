@@ -1,0 +1,155 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.caption {
+  background-image: url(../../HTML_And_CSS_Template_One-main/images/landing.jpg);
+  background-size: 100% 100%;
+  height: 600px;
+}
+
+/* End of section one */
+
+.services p {
+  font-family: "Work Sans", sans-serif;
+  color: gray;
+}
+
+.services h1 {
+  position: relative;
+}
+
+.services h1::after {
+  content: "Don't be busy, be productive";
+  font-size: 20px;
+  font-weight: 100;
+  color: black;
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  left: 0;
+}
+
+.services-image {
+  position: relative;
+}
+
+.services-image::after {
+  content: "";
+  background-color: #2c4755;
+  width: 100px;
+  height: 500px;
+  position: absolute;
+  top: -15%;
+  left: 70%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* End of section 3 */
+
+.portfolio h1 {
+  position: relative;
+}
+
+.portfolio h1::after {
+  content: "If you do it right, it will last forever.";
+  font-size: 20px;
+  color: #797979;
+  font-weight: lighter;
+  position: absolute;
+  top: 65%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* End of section 4 */
+
+.section-five h1 {
+  position: relative;
+}
+
+.section-five h1::after {
+  content: "Less is more work";
+  font-size: 20px;
+  font-weight: lighter;
+  color: #797979;
+  position: absolute;
+  top: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#image {
+  position: relative;
+  width: 1000px;
+}
+
+#image::before {
+  content: "";
+  background-color: #797979;
+  width: 100px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -20px;
+  z-index: -1;
+}
+
+#image::after {
+  content: "";
+  background-color: #09c;
+  width: 170px;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 55%;
+  z-index: -1;
+}
+
+#image-2 {
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  right: 25px;
+  bottom: 50px;
+}
+
+#line {
+  background-color: teal;
+  width: 400px;
+  height: 2px;
+  margin-bottom: 50px;
+}
+
+/* End of section five */
+
+.section-six h1 {
+  position: relative;
+}
+
+.section-six h1::after {
+  content: "We are born to create";
+  font-size: 20px;
+  font-weight: lighter;
+  color: #797979;
+  position: absolute;
+  top: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
